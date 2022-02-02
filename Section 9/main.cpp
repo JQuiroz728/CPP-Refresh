@@ -25,7 +25,7 @@ int main() {
         if (userInput == 'P' || userInput == 'A' || userInput == 'M' || userInput == 'S' || userInput == 'L' || userInput == 'Q') {
             switch (userInput) {
                 case 'P': 
-                // Display current list of numbers to the user
+                // Display current list of numbers
                     if (vec.size() != 0) {
                         std::cout << "[ ";
                         for (auto x : vec) {
@@ -38,7 +38,7 @@ int main() {
                     break;
 
                 case 'A':
-                // Add a number to our list
+                // Add a number to the list
                     std::cout << "\nEnter a number to add to the list: ";
                     int numInput;
                     std::cin >> numInput;
